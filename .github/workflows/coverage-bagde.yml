@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: limebit/medmodels
-          ref: epic/353-python-test-coverage-to-100
+          ref: main
           path: medmodels
 
       - name: Set up Rust
